@@ -76,6 +76,7 @@ body, html {
     gap: 20px;
     margin: 0;
     padding: 0;
+     margin-right: 5vh;
 }
 
 .nav-links li {
