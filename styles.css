@@ -249,3 +249,11 @@ footer {
 }
 p {margin:10%;
 }
+
+
+@media screen and (max-width: 480px) {
+    .video {
+        width: 240px; height: 193px
+    }
+}
+
