@@ -16,14 +16,14 @@
   --transition: 300ms cubic-bezier(.2,.9,.25,1);
 }
 
-/* Light theme variables (applies when .light-theme on <html> or body) */
+/* Light theme variables (applies when .light-theme on <html> or body)
 .light-theme {
   --bg: #ffffff;
   --panel: #ffffff;
   --fg: #ffffff;
   --muted: #11bbe6;
   --accent-2: rgba(3, 240, 102, 0.08);
-}
+} */
 
 /* Global */
 *{box-sizing:border-box}
@@ -231,4 +231,5 @@ h1 {
     font-size: 26px;
     margin-top: 25px;
     font-weight: 900;
+
 }
