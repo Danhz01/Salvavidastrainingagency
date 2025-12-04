@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>STA Studio — Salvavidas Training Agency</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Meta for theme color -->
+  <meta name="theme-color" content="#0b0b0b">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="brand">STA STUDIO</div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about">ABOUT</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#software">SOFTWARE</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+
+      <div class="header-controls">
+        <button id="theme-toggle" aria-label="Toggle theme" class="icon-btn">🌗</button>
+        <button id="menu-toggle" class="icon-btn mobile-only" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO with parallax background -->
+  <section class="hero" id="home" data-parallax>
+    <!--bg-->
+    <video autoplay loop muted> <source src="animationbg.mp4" type="video/mp4">
+
+    </video>
+    
+    <div class="hero-overlay"></div>
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <h1 class="reveal">Salvavidas Training Agency</h1>
+        <p class="lead reveal delay-1">Professional 3D design, VFX, renders and visual experiences — production-ready pipelines and cinematic results.</p>
+        <div class="btn-row reveal delay-2">
+          <a class="btn" href="#contact">CONTACT ME</a>
+          <a class="btn ghost" href="#gallery">VIEW WORK</a>
+        </div>
+      </div>
+      <!--<div class="hero-deco" aria-hidden="true">
+         Decorative floating shapes 
+        <div class="float-dot" style="--x:10%; --y:20%; --s:1.1"></div>
+        <div class="float-dot" style="--x:80%; --y:30%; --s:0.9"></div>
+        <div class="float-ring" style="--x:70%; --y:75%; --s:1.4"></div>
+      </div>
+      -->
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">ABOUT</h2>
+      <div class="about">
+        <p class="reveal delay-1">
+          At Salvavidas Training Agency (STA Studio) we are committed to redefining animation through visionary storytelling and cutting-edge visuals. Our team of skilled artists and storytellers crafts compelling narratives that inspire and captivate audiences worldwide.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">GALLERY</h2>
+      <div class="gallery reveal-grid delay-1">
+        <!-- Keep the same filenames you already use; replace/match as necessary -->
+        <figure class="gallery-item">
+          <img src="img1.png" alt="Work 1">
+        </figure>
+        <figure class="gallery-item">
+          <img src="img2.jpg" alt="Work 2">
+        </figure>
+        <figure class="gallery-item">
+          <img src="img3.jpg" alt="Work 3">
+        </figure>
+        <figure class="gallery-item">
+          <img src="img4.jpeg" alt="Work 4">
+        </figure>
+        <figure class="gallery-item">
+          <img src="img5.jpg" alt="Work 4">
+        </figure>
+        <figure class="gallery-item">
+          <img src="img6.jpg" alt="Work 4">
+        </figure>
+         <figure class="gallery-item">
+          <img src="img7.jpg" alt="Work 4">
+        </figure>
+         <figure class="gallery-item">
+          <img src="img8.jpeg" alt="Work 4">
+        </figure>
+         <figure class="gallery-item">
+          <img src="img9.png" alt="Work 4">
+        </figure>
+
+      </div>
+    </div>
+  </section>
+  <!--Events-->
+  <div class="flyer-container">
+    <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/UE_Logo_Black_Centered.svg" alt="Unreal Engine Logo">
+        <h2>ENGINE</h2>
+    </div>
+
+    <h1>CURSO DE 8 SEMANAS</h1>
+    <h2 class="price">$20/CLASE</h2>
+    <h2 class="learn">APRENDE ANIMACIÓN</h2>
+
+    <p class="description">
+        CREA UN CORTO ANIMADO DE <br>
+        1 MINUTO PARA FINALIZAR EL CURSO
+    </p>
+
+    <p class="info">
+        LAS CLASES EMPIEZAN LA SEMANA <br>
+        DEL <strong>8 DE DICIEMBRE DE 2025</strong>
+    </p>
+
+    <p class="info">CLASES DE 1 HORA POR ZOOM</p>
+    <p class="free">¡EL SOFTWARE DE ANIMACIÓN ES GRATIS!</p>
+
+    <p class="participants">
+        BUSCAMOS <strong>50 PARTICIPANTES</strong> <br>
+        TENEMOS <strong>7</strong> HASTA AHORA
+    </p>
+
+    <p class="skills">
+        LAS HABILIDADES APRENDERÁS SE UTILIZAN <br>
+        EN BETHEL PARA VARIOS PROYECTOS DE MEDIOS
+    </p>
+
+    <h2 class="signup">¡INSCRÍBETE HOY MISMO!</h2>
+</div>
+
+  <!-- SOFTWARE -->
+  <section id="software" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">SOFTWARE</h2>
+      <div class="software-grid reveal-grid delay-1">
+        <div class="card">Blender</div>
+        <div class="card">Unreal Engine</div>
+        <div class="card">Maya</div>
+        <div class="card">Metahumans</div>
+        <div class="card">Premiere Pro</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">CONTACT</h2>
+
+      <form class="contact-form reveal delay-1" action="https://formsubmit.co/your-email@example.com" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+        <div class="form-row">
+          <button class="btn" type="submit">SEND</button>
+          <a class="btn ghost" href="mailto:your-email@example.com">EMAIL</a>
+        </div>
+      </form>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div>© <span id="year"></span> STA Studio</div>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Behance">BE</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="scripts.js"></script>
+</body>
+</html>
