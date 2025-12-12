@@ -154,6 +154,7 @@ text-align: center;}
 
 
 .flyer-container {
+    display: none;
     max-width: 480px;
     margin: 30px auto;
     padding: 20px;
@@ -233,3 +234,4 @@ h1 {
     font-weight: 900;
 
 }
+
